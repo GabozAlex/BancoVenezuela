@@ -1,0 +1,96 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.container {
+	width: 30%;
+	height: 50%;
+	background-color: #E0FFFF;
+	box-shadow: 5px 5px 30px #AFEEEE;
+}
+
+.imagen{
+	width: 100%;
+	height: 20%;
+}
+
+.imagen img{
+	width: 70%;
+	height: 100%;
+}
+
+.texto{
+	width: 100%;
+	height: 20%;
+}
+
+.texto input{
+width: 70%;
+height: 50%;
+}
+
+.texto input:hover{
+	border-bottom-color: black;
+}
+
+.boton{
+	width: 100%;
+	height: 20%;
+}
+
+.boton button{
+	width: 40%;
+	height: 50%;
+	background-color: #00BFFF;
+	font-size: 100%;
+	color: white;
+}
+
+.boton button:hover{
+	background-color: #E0FFFF;
+	color: black;
+}
+
+.olvidarusuario{
+	width: 100%;
+	height: 20%;
+	text-align: center;
+}
+
+.olvidarusuario a{
+	font-size: 100%;
+}
+.crearusuario{
+	width: 100%;
+	height: 20%;
+	text-align: center;
+}
+.crearusuario a{
+	font-size: 100%;
+}
+.imagen, .texto, .boton, .olvidarusuario, .crearusuario{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagen-fondo{
+	width: 50%;
+	height: 100%;
+}
+
+.imagne-fondo img{
+	width: 100%;
+	height: 100%;
+}
+
